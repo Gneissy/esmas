@@ -1,0 +1,225 @@
+
+/*****HTML Selectors*****/
+body{
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+p{
+  color: #c7f2ff;
+}
+a{
+  text-decoration: none;
+}
+
+/*****Class Selectors*****/
+
+/*_____________________________________________________________Navbar Section*/
+.brand{
+  font-size: 2rem;
+  font-family: 'GFS Didot', serif;
+  letter-spacing: 10px;
+}
+.custom-navbar{
+  padding: 3% 12%;
+}
+.navbar-item{
+  font-size: 1.5rem;
+  padding: 0 3%;
+}
+.nav-link{
+  width: 170px;
+}
+
+/*____________________________________________________________________General*/
+.btn2 {
+  background: #26b8bd;
+  background-image: -webkit-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: -moz-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: -ms-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: -o-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: linear-gradient(to bottom, #26b8bd, #a1d4d0);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #f7f7f7;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+/*_______________________________________________________________Font Awesome*/
+.fa-icon{
+  color: #ef8172;
+}
+.fa-icon:hover{
+  color: #FD9191;
+}
+.fa-contact{
+  color: #11999E;
+  margin: 2% 1%;
+}
+.fa-contact:hover{
+  color: #FD9191;
+}
+
+
+
+/*______________________________________________________________Title Section*/
+.leftDiv{
+  padding: 5% 12%;
+}
+.rightDiv{
+  padding: 5% 12% 5% 5%;
+}
+.title-h1{
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 12%;
+}
+.downloadButton{
+  margin: 15% 0 3%;
+  background-color: #7dbca7;
+  /*background-color: #a98c74;*/
+  /*background-color: #95ADFF;*/
+}
+.downloadButton:hover{
+  background-color: black;
+  color: white;
+}
+.title-image{
+  width: 100%;
+  padding-top: 2%;
+}
+
+
+
+
+/*___________________________________________________________Features Section*/
+
+.features-text{
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-top: 7%;
+  padding-bottom: 1.5%;
+  color: #11999E;
+}
+
+
+
+/*____________________________________________________________Urunler Section*/
+.carousel-height{
+  height: 660px;
+}
+.urun-dikey{
+  width: 35%;
+  margin-right: 5%;
+}
+.urun-yatay{
+  width: 60%;
+  margin-right: 5%;
+}
+.buyButton{
+  margin: 7%;
+  background-color: #9ED5C5;
+  color: white;
+}
+
+
+/*________________________________________________________________CTA Section*/
+.downloadButtonCta{
+  background-color: #7dbca7;
+}
+.cta-text{
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #11999E;
+}
+
+
+/*____________________________________________________________Contact Section*/
+.allRightsReserved{
+  color: #EAF6F6;
+}
+
+
+
+/*****ID Selectors*****/
+#title{
+  /*background-color: #FD9191;*/
+  background-color: #262626;
+  text-align: left;
+  /*background-image: url(images/bg.png);
+  background-size: cover;
+  background-position: 500px;*/
+}
+#features{
+  /*background-color: white;*/
+  background-color: #1b1b1b;
+  padding: 5% 12%;
+}
+#urunler{
+  /*background-color: #ef8172;*/
+  background-color: #202124;
+  padding: 5% 12%;
+}
+#cta{
+  padding: 5% 12%;
+  background-color: #1b1b1b;
+}
+#contact{
+  background-color: #343434;
+  padding: 3% 12%;
+}
+
+
+/*Media Queries*/
+
+
+
+
+
+@media (max-width:1400px) {
+  .carousel-height{
+    height: 500px;
+  }
+}
+
+
+@media (max-width:995px) {
+  .features-text{
+    padding-top: 4%;
+  }
+  .features-description{
+    padding-bottom: 10%;
+  }
+  .carousel-height{
+    height: 300px;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+@media (max-width:600px) {
+  .carousel-height{
+    height: 200px;
+  }
+  #urunler{
+    padding: 5% 7%;
+  }
+}
