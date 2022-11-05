@@ -203,12 +203,22 @@ a{
 @media (max-width:995px) {
   .features-text{
     padding-top: 4%;
+    font-size: 3rem;
   }
   .features-description{
     padding-bottom: 10%;
+    font-size: 2rem;
   }
   .carousel-height{
     height: 300px;
+  }
+  .cta-text{
+    font-size: 2.7rem;
+  }
+  .cta-description{
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   #title{
     text-align: center;
@@ -221,5 +231,13 @@ a{
   }
   #urunler{
     padding: 5% 7%;
+  }
+  .cta-text{
+    font-size: 2.2rem;
+  }
+  .cta-description{
+    font-size: 1.5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 }
